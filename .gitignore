@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Private keys and credentials
+*.pem
+*.key
+.aws/
+credentials
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
